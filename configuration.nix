@@ -54,9 +54,9 @@
     options = "-d";
   };
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.jenish = {
+  users.users.nixxer = {
     isNormalUser = true;
-    description = "jenish";
+    description = "nixxer";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
   };
